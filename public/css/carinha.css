@@ -1,0 +1,60 @@
+html,
+body {
+	background-color: #212121;
+	font-family: "Lobster", cursive;
+	color: #ffffffcc;
+}
+
+.titulo a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffffcc;
+	margin-top: 100px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.titulo a:hover {
+	color: #faec55;
+	transition: 1s;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.cadastro {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	font-size: 26px;
+	align-items: center;
+}
+
+.cadastro input {
+	color: #ffffff;
+	background-color: #383838;
+	border: 1px solid #000000;
+	height: 30px;
+	width: 200px;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	align-items: baseline;
+	background-color: #383838;
+	color: #ffffffff;
+	font-size: 18px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	opacity: 0.5;
+	transition: 0.7s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #faec55;
+	color: #000000;
+	opacity: 1;
+}
